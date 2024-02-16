@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.example.myapp
+publish:
+  - provider: github
+    owner: Pupariaa
+    repo: testelectronupdate
+    releaseType: release
+files: []
+electronVersion: 28.2.3

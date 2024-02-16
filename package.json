@@ -7,6 +7,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "electron-updater": "^6.1.7",
+    "node": "^21.6.2"
+  },
+  "devDependencies": {
     "electron": "^28.2.3",
     "electron-updater": "^6.1.7",
     "node": "^21.6.2"
