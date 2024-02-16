@@ -1,8 +1,8 @@
-version: 1.0.0
+version: 1.0.1
 files:
-  - url: testelectronupdate-Setup-1.0.0.exe
-    sha512: xyMv3upUnTdhmdg0FAnlyBzvR9wqggbfVmDqmsgfQ2CEYe95Zcq9k76v51jMzkj/M4lISourCqqEe+BTPXSezw==
-    size: 94998115
-path: testelectronupdate-Setup-1.0.0.exe
-sha512: xyMv3upUnTdhmdg0FAnlyBzvR9wqggbfVmDqmsgfQ2CEYe95Zcq9k76v51jMzkj/M4lISourCqqEe+BTPXSezw==
-releaseDate: '2024-02-16T00:15:13.491Z'
+  - url: testelectronupdate-Setup-1.0.1.exe
+    sha512: GEG5kDLi1FNdfKrOYfCyItBXkxP6yYEE4L+rBgP0K2mfril8upmV+KcnjEbp2+Vrb58MszeBypBM79g+JbctnA==
+    size: 94726463
+path: testelectronupdate-Setup-1.0.1.exe
+sha512: GEG5kDLi1FNdfKrOYfCyItBXkxP6yYEE4L+rBgP0K2mfril8upmV+KcnjEbp2+Vrb58MszeBypBM79g+JbctnA==
+releaseDate: '2024-02-16T00:31:10.783Z'
