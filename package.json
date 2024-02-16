@@ -7,9 +7,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "^28.2.3",
-    "electron-updater": "^6.1.7",
     "node": "^21.6.2"
+  },
+  "devDependencies": {
+    "electron": "^28.2.3",
+    "electron-updater": "^6.1.7"
   },
   "build": {
     "appId": "com.example.myapp",
@@ -23,7 +25,7 @@
     ]
   },
   "scripts": {
-    "start": "electron main.js",
+    "start": "electron index.js",
     "build": "electron-builder"
   }
 }

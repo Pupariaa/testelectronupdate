@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron');
+const { autoUpdater } = require('electron-updater');
 
 let mainWindow;
 
@@ -13,7 +14,7 @@ app.on('ready', () => {
 
   mainWindow.loadFile('index.html');
 
-  require('update-electron-app')();
+  autoUpdater.checkForUpdatesAndNotify();
 });
 
 app.on('window-all-closed', () => {
