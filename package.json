@@ -1,0 +1,29 @@
+{
+  "name": "testelectronupdate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^28.2.3",
+    "electron-updater": "^6.1.7",
+    "node": "^21.6.2"
+  },
+  "build": {
+    "appId": "com.example.myapp",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "Pupariaa",
+        "repo": "testelectronupdate",
+        "releaseType": "release"
+      }
+    ]
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  }
+}
